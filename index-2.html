@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link href="http://vjs.zencdn.net/5.5.3/video-js.css" rel="stylesheet">
+        <!-- If you'd like to support IE8 -->
+        <script src="http://vjs.zencdn.net/ie8/1.1.1/videojs-ie8.min.js"></script>
+    </head>
+    <body>
+        <h1>jacky.xie的直播间</h1>
+        <video id="my-video" class="video-js" controls preload="auto" width="640" height="480"
+               poster="https://img.alicdn.com/imgextra/i2/754328530/TB2FpxhkXXXXXa5XXXXXXXXXXXX_!!754328530.jpg" data-setup="{}">
+            <source src="rtmp://120.27.211.112/hls/test" type="rtmp/flv">
+            <!-- 如果上面的rtmp流无法播放，就播放hls流 -->
+            <!-- <source src="http://120.27.211.112:82/hls/test.m3u8" type='application/x-mpegURL'> -->
+            <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a web browser that
+                <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
+        <script src="http://vjs.zencdn.net/5.5.3/video.js"></script>
+    </body>
+</html>
